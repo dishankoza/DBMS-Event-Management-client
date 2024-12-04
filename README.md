@@ -15,13 +15,13 @@ cd event-management-client
 3. Install dependencies:
 
 ```bash
-yarn install
+npm install
 ```
 
 4. Start the development server:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## 🍃 Overview
