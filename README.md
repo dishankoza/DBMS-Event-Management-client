@@ -1,3 +1,29 @@
+## Getting Started
+
+1. Clone this repository:
+
+```bash
+git clone git@github.com:dishankoza/Eventify-client.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd event-management-frontend
+```
+
+3. Install dependencies:
+
+```bash
+yarn install
+```
+
+4. Start the development server:
+
+```bash
+yarn dev
+```
+
 ## 🍃 Overview
 
 In the tapestry of digital landscapes, Eventify stands as a full-stack masterpiece, woven meticulously by the hands of a solo dream-weaver. The front end, a symphony of TypeScript and Next.js, beckons users into a world of dynamic and responsive experiences.
@@ -1770,36 +1796,6 @@ Certainly! Below are the API endpoints along with their corresponding response d
        "message": "Subscriber deleted successfully."
      }
      ```
-
-
-
-
-
-## Getting Started
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/Hamed-Hasan/event-management-frontend.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd event-management-frontend
-```
-
-3. Install dependencies:
-
-```bash
-yarn install
-```
-
-4. Start the development server:
-
-```bash
-yarn dev
-```
 
 ## Configuration
 
