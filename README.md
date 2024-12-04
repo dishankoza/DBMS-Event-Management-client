@@ -9,7 +9,7 @@ git clone git@github.com:dishankoza/Eventify-client.git
 2. Navigate to the project directory:
 
 ```bash
-cd event-management-frontend
+cd event-management-client
 ```
 
 3. Install dependencies:
