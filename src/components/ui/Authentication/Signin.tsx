@@ -33,11 +33,11 @@ const SignIn = () => {
       storeUserInfo(response?.data?.accessToken);
       message.success(response.message);
       setIsLoading(false);
-      if (router.back) {
-        router.back();
-        return;
-      }
-      router.push("/dashboard/profile");
+      // if (router.back) {
+      //   router.back();
+      //   return;
+      // }
+      router.push("/");
     }
     // @ts-ignore
     else if (!result?.success) {
