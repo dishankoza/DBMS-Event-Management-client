@@ -161,42 +161,42 @@ export const SidebarItems = (role: string) => {
       key: "/dashboard/admin/feedbacks",
       icon: <CommentOutlined />,
     },
-    {
-      label: "Pages",
-      key: "/dashboard/admin/pages",
-      icon: <DesktopOutlined />,
-      children: [
-        {
-          label: <Link href={`/dashboard/admin/pages`}>Manage Pages</Link>,
-          key: "/dashboard/admin/pages",
-        },
-        {
-          label: <Link href={`/dashboard/admin/pages/add`}>Add Pages</Link>,
-          key: "/dashboard/admin/pages/add",
-        },
-      ],
-    },
-    {
-      label: "Subscribers",
-      key: "/dashboard/admin/subscribers",
-      icon: <MailOutlined />,
-      children: [
-        {
-          label: (
-            <Link href={`/dashboard/admin/subscribers`}>
-              Manage Subscribers
-            </Link>
-          ),
-          key: "/dashboard/admin/subscribers",
-        },
-        {
-          label: (
-            <Link href={`/dashboard/admin/subscribers/send`}>Send Email</Link>
-          ),
-          key: "/dashboard/admin/subscribers/send",
-        },
-      ],
-    },
+    // {
+    //   label: "Pages",
+    //   key: "/dashboard/admin/pages",
+    //   icon: <DesktopOutlined />,
+    //   children: [
+    //     {
+    //       label: <Link href={`/dashboard/admin/pages`}>Manage Pages</Link>,
+    //       key: "/dashboard/admin/pages",
+    //     },
+    //     {
+    //       label: <Link href={`/dashboard/admin/pages/add`}>Add Pages</Link>,
+    //       key: "/dashboard/admin/pages/add",
+    //     },
+    //   ],
+    // },
+    // {
+    //   label: "Subscribers",
+    //   key: "/dashboard/admin/subscribers",
+    //   icon: <MailOutlined />,
+    //   children: [
+    //     {
+    //       label: (
+    //         <Link href={`/dashboard/admin/subscribers`}>
+    //           Manage Subscribers
+    //         </Link>
+    //       ),
+    //       key: "/dashboard/admin/subscribers",
+    //     },
+    //     {
+    //       label: (
+    //         <Link href={`/dashboard/admin/subscribers/send`}>Send Email</Link>
+    //       ),
+    //       key: "/dashboard/admin/subscribers/send",
+    //     },
+    //   ],
+    // },
   ];
   const adminSidebarItems: MenuProps["items"] = [
     ...defaultSidebarItems,
